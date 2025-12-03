@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class PokemonModel {
+    var nombre: String
+    var nivel: Int
+    var tipo: String
+    
+    init(nombre: String, nivel: Int, tipo: String) {
+        self.nombre = nombre
+        self.nivel = nivel
+        self.tipo = tipo
+    }
+}
